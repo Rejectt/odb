@@ -36,7 +36,7 @@ ms.delete()/////Mal Team
         setTimeout(() => {
   b.edit(`**تم انشاء الطلب , سيرد عليك فريق البائعين في اقرب وقت **`)
         },5000);
-var gg = message.guild.channels.find(''name', '524611283983794176')
+var gg = message.guild.channels.find('name', '524611283983794176')
 if(!gg) return;
 if(gg) {
 gg.send({embed : new Discord.RichEmbed()
