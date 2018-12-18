@@ -55,9 +55,5 @@ gg.send({embed : new Discord.RichEmbed()
  }
 })
 
-client.on('ready', () => {
-     client.user.setActivity("لـ انشاء طلب : "!or" ",{type: 'Streaming'})
-
-});
 
 client.login(process.env.KEKE);
