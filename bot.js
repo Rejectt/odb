@@ -5,6 +5,7 @@ const fs = require("fs");
 const prefix = "#";
 const devs = ['525622387304300545'];
 const adminprefix = "!";
+const hastebin = require('hastebin-gen');
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -23,8 +24,6 @@ client.user.setStatus("dnd")
 });
 
 
-
-const hastebin = require('hastebin-gen');
 client.on('message', message => {
 var PREFIX = '#';
     if(message.content.startsWith(PREFIX + 'dis')) {
