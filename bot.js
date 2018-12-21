@@ -31,3 +31,5 @@ ${users.join('\n')}
 `);
 }
 });
+
+client.login(process.env.TOKEN);
